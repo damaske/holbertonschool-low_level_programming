@@ -6,7 +6,7 @@
 int main(void)
 {
 	int lowc =  'a';
-	
+
 	while (lowc <= 'z')
 	{
 		putchar(lowc);
