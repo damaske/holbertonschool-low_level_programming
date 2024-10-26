@@ -8,12 +8,12 @@ int main(void)
 	int lowc =  'a';
 	int uppc =  'A';
 
-	while (lowc <= "z")
+	while (lowc <= 'z')
 	{
 		putchar(lowc);
 		lowc++;
 	}
-	while (uppc <= "Z")
+	while (uppc <= 'Z')
 	{
 		putchar(uppc);
 		uppc++;
