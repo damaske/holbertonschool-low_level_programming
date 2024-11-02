@@ -7,9 +7,11 @@
 
 void more_numbers(void)
 {
+	int n, i;
+
 	for (int i = 0; i < 10; i++)
 	{
-		int n = 0;
+		n = 0;
 
 		while (n <= 14)
 		{
