@@ -7,7 +7,7 @@
  * Return: 0 on success
  */
 
-void main(void)
+int  main(void)
 {
 	int n;
 
@@ -27,6 +27,7 @@ void main(void)
 		else
 		{
 			printf("%d\n", n);
+		}
 
 	}
 }
