@@ -12,5 +12,5 @@ void swap_int(int *a, int *b)
 
 	vedro = *a;
 	*a = *b;
-	*b = bedro;
+	*b = vedro;
 }
