@@ -24,10 +24,13 @@ int  main(void)
 		else if  (n % 15 == 0)
 		{
 			printf("FizzBuzz\n");
+		}
 		else
 		{
 			printf("%d\n", n);
 		}
 
 	}
+	
+	return (0);
 }
