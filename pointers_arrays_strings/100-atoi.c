@@ -6,7 +6,7 @@
  * Return: the int converted from the string
  */
 
-nt _atoi(char *s)
+int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
 
@@ -43,4 +43,4 @@ nt _atoi(char *s)
 		return (0);
 
 	return (n);
-
+}
