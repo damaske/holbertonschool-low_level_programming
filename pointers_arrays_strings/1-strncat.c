@@ -4,7 +4,7 @@
  * _strncat - Concatenates two strings.
  * @dest: The destination string,must have enough space to holdtheresult.
  * @src: The source string to be appended to dest.
- * @n - bytes from src.
+ * @n: The number of characters from src to be added to dest.
  * This function appends the src string to the dest string, overwriting
  * the terminating null byte (\0) at the end of dest, and then adds
  * a new terminating null byte.
