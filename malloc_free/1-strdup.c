@@ -24,7 +24,7 @@ char *_strdup(char *str)
 		k++;
 	}
 
-	some = mallo(sizeof(char) * (k + 1));
+	some = malloc(sizeof(char) * (k + 1));
 
 	for (i = 0; i < k ; i++)
 	{
