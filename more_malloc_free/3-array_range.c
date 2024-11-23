@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdlib.h>
 /**
  * array_range - Creates an array of
  * integers from min to max, inclusive.
@@ -18,7 +20,7 @@ int *array_range(int min, int max)
 
 	size = max - min + 1;
 
-	som = malloc(sizeof(int) * size)
+	som = malloc(sizeof(int) * size);
 
 	if (som == NULL)
 	{
